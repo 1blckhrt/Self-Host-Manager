@@ -28,6 +28,7 @@ async function startBotManager() {
         case "remove":
           const removeCommand = require("./commands/remove");
           await removeCommand.execute();
+          break;
         case "killall":
           const killallCommand = require("./commands/killall");
           await killallCommand.execute();
